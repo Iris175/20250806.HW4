@@ -1,0 +1,25 @@
+.btn {
+	border-radius: 4px;
+	padding: 12px 21px;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
+}
+
+@media (max-width:576px) {
+	.btn{
+		padding: 8px 16px;
+	}
+}
+
+.btn-dark {
+	color: $Neutral-0;
+	background-color: $Neutral-900;
+}
+
+.btn-light {
+	border: 1px solid $Neutral-900;
+}

@@ -1,0 +1,19 @@
+.category .active {
+    color: $Primary-400;
+}
+
+.page-item .btn {
+    padding: 8px 15px;
+    border-radius: 0;
+    font-weight: 400;
+}
+
+.page-item .active {
+    background-color: $Primary-300;
+    font-weight: 500;
+}
+
+.footer {
+    text-align: center;
+    border-top: 1px solid $Neutral-300;
+}
