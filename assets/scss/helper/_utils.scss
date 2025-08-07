@@ -6,6 +6,13 @@
 	padding-right: 12px;
 }
 
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -12px;
+	margin-left: -12px;
+}
+
 .col-1 {
 	padding-right: 12px;
 	padding-left: 12px;
@@ -77,11 +84,8 @@
 	padding-left: 12px;
 }
 
-.row {
-	display: flex;
-	flex-wrap: wrap;
-	margin-right: -12px;
-	margin-left: -12px;
+.gap-8 {
+	gap: 8px;
 }
 
 @media (max-width:767px) {
@@ -109,6 +113,28 @@
 		padding-right: 6px;
 		width: 100%;
 	}
+
+	.flex-md-column{
+		flex-direction: column;
+	}
+
+	.flex-md-nowrap{
+		flex-wrap: nowrap;
+	}
+
+	.gap-md-4{
+		gap: 4px;
+	}
+
+	.gap-md-8{
+		gap: 8px;
+	}
+}
+
+@media (max-width:767px) {
+	.overflow-x-md-auto{
+		overflow: auto;
+	}
 }
 
 
@@ -124,6 +150,11 @@
 	.d-md-block{
 		display: block;
 	}
+
+	.d-md-flex{
+		display: flex;
+	}
+
 	.d-md-none{
 		display: none;
 	}
@@ -156,6 +187,12 @@
 }
 
 /* 標籤 */
+.display-2 {
+	font-size: 48px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
 h1 {
     font-size: 40px;
     line-height: 1.2;
@@ -193,6 +230,14 @@ h6 {
 }
 
 @media (max-width:767px){
+	.h1-md{
+		font-size: 40px;
+	}
+
+	.h2-md{
+		font-size: 32px;
+	}
+
 	.h3-md{
 		font-size: 28px;
 	}
@@ -235,9 +280,19 @@ h6 {
 	font-weight: 400;
 }
 
+.text-lg {
+	font-size: 20px;
+}
+
 .text-md {
 	font-size: 16px;
 	font-weight: 400;
+}
+
+@media (max-width:767px) {
+	.text-md-md{
+		font-size: 16px;
+	}
 }
 
 .text-primary400 {
@@ -313,6 +368,11 @@ h6 {
 	padding-left: 12px;
 }
 
+.p-x-24 {
+	padding-right: 24px;
+	padding-left: 24px;
+}
+
 .p-y-7 {
 	padding-top: 7px;
 	padding-bottom: 7px;
@@ -383,6 +443,11 @@ h6 {
 	.p-y-md-0{
 		padding-top: 0;
 		padding-bottom: 0;
+	}
+
+	.p-y-md-24{
+		padding-top: 24px;
+		padding-bottom: 24px;
 	}
 
 	.p-y-md-32{
@@ -501,9 +566,4 @@ h6 {
 	.mb-sm-8{
 		margin-bottom: 8px;
 	}
-}
-
-
-.gap-8 {
-	gap: 8px;
 }
