@@ -186,7 +186,17 @@
 	align-items: center;
 }
 
+.text-center{
+	text-align: center;
+}
+
 /* 標籤 */
+.display-1 {
+	font-size: 64px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
 .display-2 {
 	font-size: 48px;
 	line-height: 1.2;
@@ -230,6 +240,10 @@ h6 {
 }
 
 @media (max-width:767px){
+	.display-2-md{
+		font-size: 48px;
+	}
+	
 	.h1-md{
 		font-size: 40px;
 	}
@@ -295,6 +309,10 @@ h6 {
 	}
 }
 
+.text-primary300 {
+	color: $Primary-300;
+}
+
 .text-primary400 {
 	color: $Primary-400;
 }
@@ -305,6 +323,10 @@ h6 {
 
 .text-Neutral300 {
 	color: $Neutral-300;
+}
+
+.text-Neutral500 {
+	color: $Neutral-500;
 }
 
 .text-Neutral600 {
