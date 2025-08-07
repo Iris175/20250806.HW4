@@ -147,6 +147,10 @@
 }
 
 @media (max-width:767px) {
+	.d-md-inline{
+		display: inline;
+	}
+	
 	.d-md-block{
 		display: block;
 	}
@@ -169,6 +173,9 @@
 	}
 }
 
+.flex-1{
+	flex: 1;
+}
 
 .f-wrap {
 	flex-wrap: wrap;
@@ -182,8 +189,16 @@
 	justify-content: space-between;
 }
 
+.justify-end{
+	justify-content: flex-end;
+}
+
 .align-center {
 	align-items: center;
+}
+
+.align-end {
+	align-items: flex-end;
 }
 
 .text-center{
@@ -353,6 +368,10 @@ h6 {
 	background-color: $Primary-200;
 }
 
+.bg-primary300 {
+	background-color: $Primary-300;
+}
+
 .bg-Neutral100 {
 	background-color: $Neutral-100;
 }
@@ -379,6 +398,10 @@ h6 {
 /* 間距 */
 .p-12 {
 	padding: 12px;
+}
+
+.p-16{
+	padding: 16px;
 }
 
 .p-32 {
@@ -442,6 +465,10 @@ h6 {
 
 .pr-8 {
     padding-right: 8px;
+}
+
+.pl-16{
+	padding-left: 16px;
 }
 
 .pt-32 {
@@ -542,6 +569,10 @@ h6 {
 	margin-right: 12px;
 }
 
+.mr-16{
+	margin-right: 16px;
+}
+
 .mr-24 {
 	margin-right: 24px;
 }
@@ -555,6 +586,10 @@ h6 {
 }
 
 @media (max-width:767px) {
+	.mr-md-8{
+		margin-right: 8px;
+	}
+	
 	.mb-md-0{
 		margin-bottom: 0;  
 	}
