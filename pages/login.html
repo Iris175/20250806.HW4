@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URBNSTEP | 我的收藏</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <main>
+        <section class="container">
+            <div class="row p-y-64">
+                <div class="col-5">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login.png?raw=true" alt="login-banner">
+                </div>
+                <div class="col-7">
+                    <div class="login-item p-y-120 p-x-80">
+                        <h1 class="h3 text-center mb-32">歡迎！</h1>
+                        <div class="df justify-center mb-32">
+                            <button type="button" class="btn login-btn-active"><h6>登入</h6></button>
+                            <button type="button" class="btn login-btn-inactive"><h6>註冊</h6></button>
+                        </div>
+
+                        <div>
+                            <ul>
+                                <li class="Paragraph-a mb-8"><a href="#"><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week3-4/facebook.svg" alt="Facebook 登入" class="p-12">Facebook 登入</a></li>
+                                <li class="Paragraph-a mb-8"><a href="#"><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week3-4/apple.svg" alt="Apple 登入" class="p-12">Apple 登入</a></li>
+                                <li class="Paragraph-a mb-8"><a href="#"><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week3-4/google.svg" alt="Google 登入" class="p-12">Google 登入</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <%- include('./layout/footer-simple'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

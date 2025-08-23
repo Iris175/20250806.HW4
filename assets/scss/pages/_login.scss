@@ -1,0 +1,21 @@
+.login-item{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login-bg.png?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login-btn-active{
+    border-bottom: 2px solid $Neutral-900;
+    border-radius: 0;
+}
+
+.login-btn-inactive{
+    border-bottom: 2px solid $Neutral-300;
+    border-radius: 0;
+}
+
+.Paragraph-a{
+    background-color: $Neutral-0;
+    border: 1px solid $Neutral-300;
+}
